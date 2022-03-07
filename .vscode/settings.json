@@ -1,0 +1,17 @@
+{
+	"latex-workshop.latex.recipes": [
+		{
+			"name": "sample-report",
+			"tools": ["sample-report"]
+		}
+	],
+	"latex-workshop.latex.tools": [
+		{
+			"name": "sample-report",
+			"command": "xelatex",
+			"args": ["-shell-escape", "report"],
+			"env": {}
+		}
+	],
+	"latex-workshop.latex.recipe.default": "sample-report"
+}
